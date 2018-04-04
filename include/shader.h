@@ -1,8 +1,8 @@
 #ifndef __SHADER_H__
 #define __SHADER_H__
 
-#include "external/glad.h"
-#include "external/glm/glm.hpp"
+#include "glad/glad.h"
+#include "glm/glm.hpp"
 #include "string"
 
 class Shader

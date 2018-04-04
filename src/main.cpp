@@ -1,11 +1,13 @@
 #include <iostream>
-#include "external/glad.h"
-#include "external/glfw3.h"
-#include "external/glm/glm.hpp"
-#include "external/glm/gtc/matrix_transform.hpp"
-#include "external/glm/gtc/type_ptr.hpp"
-#include "external/stb/stb_image.h"
-#include "include/shader.h"
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "stb_image.h"
+
+#include "shader.h"
+
 #include <vector>
 
 void FramebufferSizeCallback(GLFWwindow* window, int width, int height);
